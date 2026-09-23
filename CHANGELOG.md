@@ -1,5 +1,12 @@
 # Changelog
 
+## [Día 6]
+- [EJERCICIO 6]: Cálculo del porcentaje de infracciones con fecha inválida.
+                 Cálculo del porcentaje de infracciones con hora inválida.
+                 Identificación del tipo de carga más frecuente y su porcentaje.
+                 Identificación del origen más frecuente entre los buques infractores.
+                 Cálculo de la duración promedio de estadía en muelle.
+
 ## [Día 5]
 - [EJERCICIO 5]: Generación y exportación de los seis gráficos solicitados.
                  Visualización de reincidencia, infracciones por turno y por mes.
