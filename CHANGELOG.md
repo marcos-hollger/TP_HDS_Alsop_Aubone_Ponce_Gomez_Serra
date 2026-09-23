@@ -1,5 +1,13 @@
 # Changelog
 
+## [Día 7]
+- [EJERCICIO 7]: Redacción de la conclusión final del análisis.
+                 Evaluación de la calidad del dataset y registros descartados.
+                 Identificación de patrones de infracción por turno, muelle y tipo de carga.
+                 Análisis del impacto de utilizar datos sin limpieza previa.
+                 Propuesta de mejoras para el proceso de captura de datos.
+                 Exportación de la conclusión en port_log/reports/conclusion.md.
+
 ## [Día 6]
 - [EJERCICIO 6]: Cálculo del porcentaje de infracciones con fecha inválida.
                  Cálculo del porcentaje de infracciones con hora inválida.
