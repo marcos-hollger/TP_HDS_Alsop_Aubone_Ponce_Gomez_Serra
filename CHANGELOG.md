@@ -1,5 +1,11 @@
 # Changelog
 
+## [Día 4]
+- [EJERCICIO 4]: Creación de la clase PortAnalyzer para el análisis del dataset limpio.
+                 Obtención del ranking de matrículas infractoras.
+                 Análisis de infracciones por turno, muelle y tipo de carga.
+                 Cálculo del exceso de velocidad promedio con y sin tolerancia.
+
 ## [Día 3]
 - [EJERCICIO 3]: Normalización de fechas, horas, matrículas y muelles.
                  Cálculo de duracion_horas, exceso_velocidad_real y exceso_velocidad.
