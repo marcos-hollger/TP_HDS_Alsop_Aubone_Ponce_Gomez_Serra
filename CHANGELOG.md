@@ -1,5 +1,17 @@
 # Changelog
 
+## [Día 10]
+- [EJERCICIO 3 - Sprint 2]: Conversión de imágenes a escala de grises (03_01_gray).
+                            Ecualización de histograma sobre las imágenes en escala
+                            de grises para mejorar el contraste (03_02_equalized).
+                            Suavizado con blur gaussiano sobre las imágenes
+                            ecualizadas (03_03_blur).
+                            Detección de bordes con Canny sobre las imágenes
+                            suavizadas (03_04_canny).
+                            Visualización de muestras en cada etapa del
+                            preprocesamiento.
+                            Commit de las imágenes procesadas.
+
 ## [Día 9]
 - [EJERCICIO 2 - Sprint 2]: Listado de imágenes disponibles con nombre y tamaño
                             en KB.
