@@ -1,5 +1,17 @@
 # Changelog
 
+## [Día 13]
+- [EJERCICIO 6 - Sprint 2]: Redacción de la conclusión sobre la relación entre
+                            los datos tabulares y las imágenes capturadas.
+                            Análisis del porcentaje de infracciones validadas
+                            visualmente.
+                            Comparación de la efectividad de OCR entre los grupos
+                            "plates" y "completes".
+                            Identificación de las condiciones de captura que más
+                            afectaron el matching.
+                            Propuesta de mejoras para el sistema de captura y el
+                            algoritmo de matching.
+
 ## [Día 12]
 - [EJERCICIO 5 - Sprint 2]: Cálculo de infracciones con y sin imagen asociada
                             sobre el dataset final.
