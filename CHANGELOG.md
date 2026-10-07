@@ -1,11 +1,23 @@
 # Changelog
 
+## [Día 12]
+- [EJERCICIO 5 - Sprint 2]: Cálculo de infracciones con y sin imagen asociada
+                            sobre el dataset final.
+                            Cálculo de imágenes sin match, comparando el universo
+                            total de imágenes contra las efectivamente usadas.
+                            Cálculo del ratio promedio de coincidencia de los
+                            matches encontrados.
+                            Identificación del grupo ("plates" o "completes") con
+                            mayor tasa de match exitoso.
+                            Cálculo de infracciones en estado PENDIENTE sin
+                            evidencia visual asociada.
+
 ## [Día 11]
 - [EJERCICIO 4 - Sprint 2]: Instalación de la librería easyocr.
                             Implementación de la función extraer_matricula para
                             extracción de matrículas mediante OCR.
-                            Se aplicó la extracción mediante OCR sobre cada imagen, se
-                            cruzó matrículas con port_movements.csv y exportó
+                            Pendiente: aplicar la extracción sobre cada imagen,
+                            cruzar matrículas con port_movements.csv y exportar
                             port_movements_image.csv.
 
 ## [Día 10]
@@ -34,9 +46,9 @@
                             Commit de group_images.json.
 
 ## [Día 8]
-- [EJERCICIO 1 - Sprint 2]: Carga del dataset de Imágenes.
-                            Generación de la branch "Sprint_2".
-                            Actualización de README.MD.
+- [EJERCICIO 1 - Sprint 2]: Carga del dataset de Imágenes
+                            Generación de la branch "Sprint_2"
+                            Actualización de README.MD
 
 ## [Día 7]
 - [EJERCICIO 7 - Sprint 1]: Redacción de la conclusión final del análisis.
