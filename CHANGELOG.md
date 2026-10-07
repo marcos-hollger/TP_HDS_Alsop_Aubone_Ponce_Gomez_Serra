@@ -1,5 +1,18 @@
 # Changelog
 
+## [Día 9]
+- [EJERCICIO 2 - Sprint 2]: Listado de imágenes disponibles con nombre y tamaño
+                            en KB.
+                            Separación de imágenes en grupos "plates" y
+                            "completes" según el nombre de archivo.
+                            Construcción del diccionario group_images y
+                            exportación a group_images.json.
+                            Cálculo de resolución, área y tamaño promedio por
+                            grupo.
+                            Definición de la función mostrar_muestra y
+                            visualización de muestras aleatorias por grupo.
+                            Commit de group_images.json.
+
 ## [Día 8]
 - [EJERCICIO 1 - Sprint 2]: Carga del dataset de Imágenes
                             Generación de la branch "Sprint_2"
