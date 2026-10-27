@@ -1,0 +1,6 @@
+[core]
+    remote = supabase
+['remote "supabase"']
+    url = s3://port_log/port_log
+    endpointurl = https://phpisgbprfsirqdkbluh.storage.supabase.co/storage/v1/s3
+    region = sa-east-1

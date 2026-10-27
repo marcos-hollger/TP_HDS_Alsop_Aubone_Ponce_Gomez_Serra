@@ -1,12 +1,18 @@
 # Changelog
 
+## [Día 15]
+- [EJERCICIO 2 - Sprint 3]: Inicialización de DVC y configuración de Supabase como
+                            remoto S3 (credenciales en config local, fuera de Git).
+                            Migración de port_log/data/raw/imgs de Git a DVC y push
+                            al remoto.
+
 ## [Día 14]
 - [EJERCICIO 1 - Sprint 3]: Generación de la branch "Sprint_3" a partir de "Sprint_2".
                             Verificación del acceso a los datasets de sprints
                             anteriores (port_movements.csv, port_movements_image.csv,
                             group_images.json y summary_sprint1.csv).
                             Cantidad de registros y fecha de última modificación de
-                            cada dataset.
+                            cada dataset, en hora UTC.
                             Actualización de README.MD con el objetivo y el contexto
                             del Sprint 3.
 
