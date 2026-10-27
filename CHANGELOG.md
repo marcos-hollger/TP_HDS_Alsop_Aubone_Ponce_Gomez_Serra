@@ -1,5 +1,14 @@
 # Changelog
 
+## [Día 20]
+- [EJERCICIO 5 - Sprint 3]: Creación de la base transito_portuario (SQLite) con
+                            SQLAlchemy y generación automática de las tablas.
+                            Migración de port_movements_image.csv mediante
+                            procesar_fila_csv, sin duplicar buques ni radares.
+                            Validación de la cantidad de registros por tabla.
+                            Exclusión del archivo .db de Git por ser regenerable
+                            desde el CSV versionado con DVC.
+
 ## [Día 19]
 - [EJERCICIO 4 - Sprint 3]: Implementación del modelo relacional con SQLAlchemy
                             (Buque, Radar, Movimiento y Evidencia) con claves
