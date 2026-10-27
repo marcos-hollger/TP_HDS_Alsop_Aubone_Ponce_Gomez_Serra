@@ -1,5 +1,10 @@
 # Changelog
 
+## [Día 17]
+- [EJERCICIO 2 - Sprint 3]: Migración de port_movements_image.csv de Git a DVC como
+                            dataset procesado final del pipeline.
+                            Justificación del uso de DVC para este archivo.
+
 ## [Día 16]
 - [EJERCICIO 2 - Sprint 3]: Migración de los gráficos de port_log/data/interim/plots
                             de Git a DVC y push al remoto de Supabase.
