@@ -1,5 +1,13 @@
 # Changelog
 
+## [Día 21]
+- [EJERCICIO 6 - Sprint 3]: Consultas con SQLAlchemy sobre transito_portuario:
+                            top 10 buques con más infracciones, movimientos
+                            recientes sin evidencia, radares más activos con
+                            cantidad de muelles distintos, reincidentes en el
+                            período 2023, exceso promedio por muelle y
+                            cobertura de evidencia visual.
+
 ## [Día 20]
 - [EJERCICIO 5 - Sprint 3]: Creación de la base transito_portuario (SQLite) con
                             SQLAlchemy y generación automática de las tablas.
