@@ -1,5 +1,15 @@
 # Changelog
 
+## [Día 14]
+- [EJERCICIO 1 - Sprint 3]: Generación de la branch "Sprint_3" a partir de "Sprint_2".
+                            Verificación del acceso a los datasets de sprints
+                            anteriores (port_movements.csv, port_movements_image.csv,
+                            group_images.json y summary_sprint1.csv).
+                            Cantidad de registros y fecha de última modificación de
+                            cada dataset.
+                            Actualización de README.MD con el objetivo y el contexto
+                            del Sprint 3.
+
 ## [Día 13]
 - [EJERCICIO 6 - Sprint 2]: Redacción de la conclusión sobre la relación entre
                             los datos tabulares y las imágenes capturadas.

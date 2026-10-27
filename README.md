@@ -56,6 +56,44 @@ port_log/
 └── reports/                          resúmenes estadísticos y conclusiones
 ```
 
+
+# Port Log - Sprint 3
+
+## Objetivo
+Aplicar conocimientos de bases de datos relacionales (SQLAlchemy), versionado de datos
+(DVC) y búsqueda por similitud visual (ChromaDB) para profesionalizar el sistema
+portuario.
+
+## Introducción y contexto
+El sistema creció en volumen y complejidad, y el manejo de la información mediante
+archivos CSV dejó de ser suficiente. En este sprint migramos los movimientos portuarios
+a una base de datos relacional (`transito_portuario`) modelada con SQLAlchemy, con las
+entidades Buque, Movimiento, Radar y Evidencia. Los radares son móviles: un mismo radar
+puede registrar movimientos en distintos muelles, por lo que el muelle se asocia a cada
+movimiento y no al radar. Para auditar qué versión de los datos se utilizó en cada
+análisis, versionamos con DVC las imágenes, los gráficos y el dataset procesado final,
+usando Supabase como almacenamiento S3. Por último, como el OCR no siempre logra leer
+correctamente las matrículas, construimos una base vectorial (`buque_vectorial`) con
+ChromaDB y embeddings de OpenCLIP que permite identificar un buque por similitud visual
+de su imagen, sin depender del texto.
+
+## Estructura
+```
+port_log/
+├── data/
+│   ├── interim/
+│   │   ├── imgs/                         imágenes preprocesadas por etapa
+│   │   ├── group_images.json             metadatos de imágenes agrupadas en plates/completes
+│   │   └── plots.dvc                     gráficos versionados con DVC
+│   ├── processed/
+│   │   ├── port_movements_image.csv.dvc  dataset final versionado con DVC
+│   │   ├── transito_portuario.db         base relacional SQLAlchemy
+│   │   └── buque_vectorial/              base vectorial ChromaDB (OpenCLIP)
+│   └── raw/
+│       └── imgs.dvc                      imágenes originales versionadas con DVC
+└── reports/                              resúmenes estadísticos y conclusiones
+```
+
 ## Integrantes
 - Alsop Agustín
 - Alexia Aubone
