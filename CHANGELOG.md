@@ -1,5 +1,11 @@
 # Changelog
 
+## [Día 24]
+- [EJERCICIO 9 - Sprint 3]: Redacción de la conclusión integradora de los tres
+                            sprints: problema resuelto, ventaja de la base
+                            vectorial frente al OCR, limitaciones del sistema y
+                            propuestas para un uso en producción.
+
 ## [Día 23]
 - [EJERCICIO 8 - Sprint 3]: Reorganización de las imágenes en completes/ y plates/
                             y actualización de su versión en DVC.
