@@ -1,5 +1,15 @@
 # Changelog
 
+## [Día 19]
+- [EJERCICIO 4 - Sprint 3]: Implementación del modelo relacional con SQLAlchemy
+                            (Buque, Radar, Movimiento y Evidencia) con claves
+                            primarias, foráneas, relaciones y __repr__.
+                            Radar opcional en el movimiento y origen como
+                            atributo del movimiento.
+                            Implementación de procesar_fila_csv con normalización
+                            de muelle, ratio y ruta de imagen.
+                            Validación con la fila de ejemplo de la cátedra.
+
 ## [Día 18]
 - [EJERCICIO 3 - Sprint 3]: Diseño del modelo lógico de las entidades buque, movimiento,
                             radar, evidencia a partir de port_log/data/processed/port_movements_image.csv.
