@@ -1,5 +1,16 @@
 # Changelog
 
+## [Día 22]
+- [EJERCICIO 7 - Sprint 3]: Creación de la base vectorial buque_vectorial con
+                            ChromaDB y embeddings OpenCLIP (ViT-B-32).
+                            Indexación de la imagen complete de mayor ratio por
+                            buque, usando el id de la base relacional.
+                            Exclusión de buques sin imagen complete.
+                            Cálculo de la cobertura vectorial.
+                            Exclusión de la base vectorial de Git por ser
+                            regenerable.
+
+
 ## [Día 21]
 - [EJERCICIO 6 - Sprint 3]: Consultas con SQLAlchemy sobre transito_portuario:
                             top 10 buques con más infracciones, movimientos
