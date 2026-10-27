@@ -1,5 +1,21 @@
 # Changelog
 
+## [Día 23]
+- [EJERCICIO 8 - Sprint 3]: Reorganización de las imágenes en completes/ y plates/
+                            y actualización de su versión en DVC.
+                            Implementación de buscar_buque_por_imagen: embedding
+                            OpenCLIP, consulta a buque_vectorial y recuperación
+                            del buque con sus movimientos y evidencias desde
+                            transito_portuario.
+                            Umbral de similitud y advertencias para resultados
+                            no confiables.
+                            Validación con imágenes complete y plate, y
+                            explicación del caso plate.
+                            Visualización de la imagen consultada junto a la
+                            de referencia.
+                            Calibración del umbral con las imágenes complete no
+                            indexadas (16 de 20 aciertos) y ajuste a 0,76.
+
 ## [Día 22]
 - [EJERCICIO 7 - Sprint 3]: Creación de la base vectorial buque_vectorial con
                             ChromaDB y embeddings OpenCLIP (ViT-B-32).
