@@ -1,5 +1,9 @@
 # Changelog
 
+## [Día 16]
+- [EJERCICIO 2 - Sprint 3]: Migración de los gráficos de port_log/data/interim/plots
+                            de Git a DVC y push al remoto de Supabase.
+
 ## [Día 15]
 - [EJERCICIO 2 - Sprint 3]: Inicialización de DVC y configuración de Supabase como
                             remoto S3 (credenciales en config local, fuera de Git).
