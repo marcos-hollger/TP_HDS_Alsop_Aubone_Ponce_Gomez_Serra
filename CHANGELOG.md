@@ -1,5 +1,10 @@
 # Changelog
 
+## [Día 18]
+- [EJERCICIO 3 - Sprint 3]: Diseño del modelo lógico de las entidades buque, movimiento,
+                            radar, evidencia a partir de port_log/data/processed/port_movements_image.csv.
+                            Presentación del modelo logrado.
+
 ## [Día 17]
 - [EJERCICIO 2 - Sprint 3]: Migración de port_movements_image.csv de Git a DVC como
                             dataset procesado final del pipeline.
